@@ -27,7 +27,7 @@ ext {
     GITHUB_REPO_PATH = "E:/Note/maven.git/trunk"
     PUBLISH_GROUP_ID = 'com.heshicaihao'
     PUBLISH_ARTIFACT_ID = 'screenadapter'
-    PUBLISH_VERSION = '2.0.0'
+    PUBLISH_VERSION = '3.0.0'
 }
 uploadArchives {
     repositories.mavenDeployer {
