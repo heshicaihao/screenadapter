@@ -1,1 +1,1 @@
-include ':sample', ':screenadapter'
+include ':sample', ':screenadapter', ':screenadapter_n'
