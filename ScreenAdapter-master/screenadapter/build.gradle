@@ -18,7 +18,11 @@ android {
     }
 }
 
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.heshicaihao:screenadapter_n:0.0.0'
 
+}
 //////// 打包发布配置开始 ////////
 apply plugin: 'maven'
 ext {
